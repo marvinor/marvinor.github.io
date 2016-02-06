@@ -1374,7 +1374,8 @@ a.text-danger:focus {
   color: #f74b21;
 }
 .text-white {
-  color: #ffffff;
+  /*color: #ffffff;*/
+  color: #777;
 }
 a.text-white:hover,
 a.text-white:focus {
