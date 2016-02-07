@@ -169,8 +169,8 @@
         _this.image.$container = $('<div>')
             .css(containerStyles)
             .css({
-                visibility : 'hidden'
-                //,'z-index'  : _this.options.zIndex
+                visibility : 'hidden',
+                'z-index'  : _this.options.zIndex
             })
             .attr('id', 'jarallax-container-' + _this.instanceID)
             .prependTo(_this.$item);
